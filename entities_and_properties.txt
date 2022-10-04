@@ -1,0 +1,67 @@
+/*
+Books
+	BookName
+    Genre
+    IBSN-10 (PK)
+    Language
+    PublicationDate
+    Pages
+    Edition
+    Price
+Authors
+	AuthorID (PK)
+    AuthorName
+    Address1
+    Address2
+    City
+    State
+    Country
+    Zipcode
+    Email
+    Phone
+Publishers
+	PublisherID (PK)
+    PublisherName
+    Address1
+    Address2
+    City
+    State
+    Country
+    ZipCode
+    Email
+    Phone
+Editors
+	EditorID (PK)
+    EditorName
+	Address 1
+    Address 2
+    City
+    State
+    Country
+    Zipcode
+    Email
+    Phone
+Orders
+	OrderID (PK)
+    OrderDate
+Customers
+	CustomerID (PK)
+    CustomerName
+	Address 1
+    Address 2
+    City
+    State
+    Country
+    Zipcode
+    Email
+    Phone
+    
+Books, Authors, N:N
+Books, Publishers, N:1
+Books, Editors, N:N
+Books, Orders, N:N
+Orders, Customers, N:N
+   
+
+*/
+
